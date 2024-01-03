@@ -1,9 +1,37 @@
 body{
     background-color: black;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.logo-main{
+    color:rgb(212, 99, 55);
+    font-family:monospace;
+    padding: 0 1em;
+    text-align: center;
+    font-size: 2.8em;
+}
+.logo-adhamya{
+    height: 100px;
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 2px;
+}
+.logo-fiesta{
+    align-items: end;
+    height: 140px;
+    padding: 0px;
+    border-radius: 0px;
+}
+hr{
+    color: #d4af37;
+}
 h1{
+    display: flex;
+    padding-top: 0px;
     font-family:cursive;
-    font-size: 45px;
+    font-size: 3em;
     margin: 0px 0;
 }
 .home{
@@ -14,11 +42,21 @@ h1{
     background-image: url("https://static.vecteezy.com/system/resources/previews/007/775/137/original/circular-flower-mandala-with-colorful-pastel-color-mandala-oriental-pattern-hand-drawn-decorative-element-unique-design-with-petal-flower-concept-relax-and-meditation-free-vector.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 11cm;
+    padding-bottom: 30em;
+}
+.fiesta{
+color:rgb(212, 175, 55);
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.cont-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn {
     margin-top: 0.2em;
-    margin-left: 32em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,4 +185,33 @@ li{
     font-size: 30px;
     font-family: monospace;
     font-style:italic;
+}
+
+@media only screen and (max-width: 600px) {
+    .home{
+    
+        padding-bottom: 11em;
+    }
+    .logo-main{
+        color:rgb(212, 99, 55);
+        font-family:monospace;
+        padding: 0 1em;
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .logo-adhamya{
+        height: 90px;
+        padding: 5px;
+        padding-top: 20px;
+        border-radius: 2px;
+    }
+    .logo-fiesta{
+        align-items: end;
+        height: 120px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+   
+   
+   
 }
