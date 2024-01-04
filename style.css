@@ -316,12 +316,24 @@ li {
   padding-left: 8rem;
 }
 
+ol {
+  gap: 2rem;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-family: monospace;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
 @media screen and (max-width: 545px) {
   .links__wrapper {
     padding-left: 4rem;
   }
 
   ol {
-    gap: 0rem;
+    gap: 0.5rem;
   }
 }
